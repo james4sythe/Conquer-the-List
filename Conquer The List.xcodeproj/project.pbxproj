@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		859D700A2125BD950073FA8C /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D70092125BD950073FA8C /* SwipeViewController.swift */; };
+		859D700C2125BDA50073FA8C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D700B2125BDA50073FA8C /* Category.swift */; };
+		859D700E2125BDB00073FA8C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859D700D2125BDB00073FA8C /* Item.swift */; };
 		85BB975F2124DC0B0013364D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB975E2124DC0B0013364D /* AppDelegate.swift */; };
-		85BB97612124DC0B0013364D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB97602124DC0B0013364D /* ViewController.swift */; };
 		85BB97642124DC0B0013364D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BB97622124DC0B0013364D /* Main.storyboard */; };
 		85BB97662124DC0C0013364D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BB97652124DC0C0013364D /* Assets.xcassets */; };
 		85BB97692124DC0C0013364D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BB97672124DC0C0013364D /* LaunchScreen.storyboard */; };
+		85BB97712124DCB40013364D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB97702124DCB40013364D /* CategoryViewController.swift */; };
+		85BB97732124DCCC0013364D /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB97722124DCCC0013364D /* ItemViewController.swift */; };
+		B1073E8654B999371F62318F /* Pods_Conquer_The_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B589B62D75DAFD375A38EF8D /* Pods_Conquer_The_List.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85BB975B2124DC0B0013364D /* Task Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0E6C0E1371F55CB5A801D2 /* Pods-Conquer The List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conquer The List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Conquer The List/Pods-Conquer The List.release.xcconfig"; sourceTree = "<group>"; };
+		859D70092125BD950073FA8C /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		859D700B2125BDA50073FA8C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		859D700D2125BDB00073FA8C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		85BB975B2124DC0B0013364D /* Conquer The List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conquer The List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BB975E2124DC0B0013364D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85BB97602124DC0B0013364D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85BB97632124DC0B0013364D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85BB97652124DC0C0013364D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85BB97682124DC0C0013364D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85BB976A2124DC0C0013364D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85BB97702124DCB40013364D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		85BB97722124DCCC0013364D /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		B589B62D75DAFD375A38EF8D /* Pods_Conquer_The_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Conquer_The_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ACA46F1BEC0031D5D85088 /* Pods-Conquer The List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conquer The List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Conquer The List/Pods-Conquer The List.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,59 +41,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1073E8654B999371F62318F /* Pods_Conquer_The_List.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0312DC070AC4E1B73FC2872A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B589B62D75DAFD375A38EF8D /* Pods_Conquer_The_List.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DC366427E678391F22D6A14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACA46F1BEC0031D5D85088 /* Pods-Conquer The List.debug.xcconfig */,
+				5B0E6C0E1371F55CB5A801D2 /* Pods-Conquer The List.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		859D700F2125BDB60073FA8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85BB97702124DCB40013364D /* CategoryViewController.swift */,
+				85BB97722124DCCC0013364D /* ItemViewController.swift */,
+				859D70092125BD950073FA8C /* SwipeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		859D70102125BDC10073FA8C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				859D700B2125BDA50073FA8C /* Category.swift */,
+				859D700D2125BDB00073FA8C /* Item.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		859D70112125BDCB0073FA8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85BB97622124DC0B0013364D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		859D70122125BDF60073FA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85BB97652124DC0C0013364D /* Assets.xcassets */,
+				85BB97672124DC0C0013364D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		85BB97522124DC0B0013364D = {
 			isa = PBXGroup;
 			children = (
-				85BB975D2124DC0B0013364D /* Task Master */,
+				85BB975D2124DC0B0013364D /* Conquer The List */,
 				85BB975C2124DC0B0013364D /* Products */,
+				0DC366427E678391F22D6A14 /* Pods */,
+				0312DC070AC4E1B73FC2872A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		85BB975C2124DC0B0013364D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85BB975B2124DC0B0013364D /* Task Master.app */,
+				85BB975B2124DC0B0013364D /* Conquer The List.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85BB975D2124DC0B0013364D /* Task Master */ = {
+		85BB975D2124DC0B0013364D /* Conquer The List */ = {
 			isa = PBXGroup;
 			children = (
 				85BB975E2124DC0B0013364D /* AppDelegate.swift */,
-				85BB97602124DC0B0013364D /* ViewController.swift */,
-				85BB97622124DC0B0013364D /* Main.storyboard */,
-				85BB97652124DC0C0013364D /* Assets.xcassets */,
-				85BB97672124DC0C0013364D /* LaunchScreen.storyboard */,
+				859D70102125BDC10073FA8C /* Module */,
+				859D70112125BDCB0073FA8C /* View */,
+				859D700F2125BDB60073FA8C /* Controller */,
+				859D70122125BDF60073FA8C /* Supporting Files */,
 				85BB976A2124DC0C0013364D /* Info.plist */,
 			);
-			path = "Task Master";
+			path = "Conquer The List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85BB975A2124DC0B0013364D /* Task Master */ = {
+		85BB975A2124DC0B0013364D /* Conquer The List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85BB976D2124DC0C0013364D /* Build configuration list for PBXNativeTarget "Task Master" */;
+			buildConfigurationList = 85BB976D2124DC0C0013364D /* Build configuration list for PBXNativeTarget "Conquer The List" */;
 			buildPhases = (
+				5AF95D3DC8C80EE431D52AF0 /* [CP] Check Pods Manifest.lock */,
 				85BB97572124DC0B0013364D /* Sources */,
 				85BB97582124DC0B0013364D /* Frameworks */,
 				85BB97592124DC0B0013364D /* Resources */,
+				938DED918445570969F785BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Task Master";
-			productName = "Task Master";
-			productReference = 85BB975B2124DC0B0013364D /* Task Master.app */;
+			name = "Conquer The List";
+			productName = "Conquer The List";
+			productReference = 85BB975B2124DC0B0013364D /* Conquer The List.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +166,11 @@
 				TargetAttributes = {
 					85BB975A2124DC0B0013364D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = 85BB97562124DC0B0013364D /* Build configuration list for PBXProject "Task Master" */;
+			buildConfigurationList = 85BB97562124DC0B0013364D /* Build configuration list for PBXProject "Conquer The List" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85BB975A2124DC0B0013364D /* Task Master */,
+				85BB975A2124DC0B0013364D /* Conquer The List */,
 			);
 		};
 /* End PBXProject section */
@@ -130,13 +201,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AF95D3DC8C80EE431D52AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conquer The List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938DED918445570969F785BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Conquer The List/Pods-Conquer The List-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Conquer The List/Pods-Conquer The List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85BB97572124DC0B0013364D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85BB97612124DC0B0013364D /* ViewController.swift in Sources */,
+				85BB97712124DCB40013364D /* CategoryViewController.swift in Sources */,
+				859D700C2125BDA50073FA8C /* Category.swift in Sources */,
 				85BB975F2124DC0B0013364D /* AppDelegate.swift in Sources */,
+				85BB97732124DCCC0013364D /* ItemViewController.swift in Sources */,
+				859D700E2125BDB00073FA8C /* Item.swift in Sources */,
+				859D700A2125BD950073FA8C /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,44 +398,52 @@
 		};
 		85BB976E2124DC0C0013364D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ACA46F1BEC0031D5D85088 /* Pods-Conquer The List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JUD6PG98M2;
-				INFOPLIST_FILE = "Task Master/Info.plist";
+				INFOPLIST_FILE = "Conquer The List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.james4sythe.Task-Master";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.james4sythe.Conquer-The-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		85BB976F2124DC0C0013364D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0E6C0E1371F55CB5A801D2 /* Pods-Conquer The List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JUD6PG98M2;
-				INFOPLIST_FILE = "Task Master/Info.plist";
+				INFOPLIST_FILE = "Conquer The List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.james4sythe.Task-Master";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.james4sythe.Conquer-The-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85BB97562124DC0B0013364D /* Build configuration list for PBXProject "Task Master" */ = {
+		85BB97562124DC0B0013364D /* Build configuration list for PBXProject "Conquer The List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85BB976B2124DC0C0013364D /* Debug */,
@@ -324,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85BB976D2124DC0C0013364D /* Build configuration list for PBXNativeTarget "Task Master" */ = {
+		85BB976D2124DC0C0013364D /* Build configuration list for PBXNativeTarget "Conquer The List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85BB976E2124DC0C0013364D /* Debug */,
